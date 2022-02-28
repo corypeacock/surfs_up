@@ -10,31 +10,23 @@ ice-cream-eating temperature range.'
 
 ### Resources
 Software: PythonData Dev Environment (Python 3.7.11), Jupyter Notebook 6.4.6  
-Languages: Python, SQLite
+Languages: Python, SQLite  
 Dependencies: numpy, pandas, sqlalchemy (automap_base, session, create_engine,
-func, extract)
+func, extract)  
 Data Source: hawaii.sqlite
 
 ## Results
-need three major points from the two analysis deliverables
 The weather in Oahu is remarkably stable throughout the year. The temperature
-does not flunctuate significantly. The following points bear mention:
-* The average temperature in June in the eight year period from 2010 to 2017 was
-* 74.9 degrees.
-![june_temps](images/june_temperatures.png)
+does not flunctuate significantly. The following points bear mention:  
+* The average temperature in June in the eight year period from 2010 to 2017 was 74.9 degrees.
+![june_temps](images/june_temperatures.png)  
 
-* The average temperature in December in this same eight year period was 71.0
-* degrees.
-![dec_temps](images/dec_temperatures.png)
+* The average temperature in December in this same eight year period was 71.0 degrees.  
+![dec_temps](images/dec_temperatures.png)  
 
-* While the average temperature was higher in June by approximately four
-* degrees, the range was notably narrower. The standard deviation in temperature
-* readings in June was 3.26 degrees. The recorded minimum temperature was 64
-* degrees. The recorded maximum was 85.
+* While the average temperature was higher in June by approximately four degrees, the range was notably narrower. The standard deviation in temperature readings in June was 3.26 degrees. The recorded minimum temperature was 64 degrees. The recorded maximum was 85.
 
-* The standard deviation of temperatures in December was 3.75 degrees, which
-* follows from the wider range of temperatures in this month. The recorded
-* minimum was 56 degrees, while the recorded maximum was 83.
+* The standard deviation of temperatures in December was 3.75 degrees, which follows from the wider range of temperatures in this month. The recorded minimum was 56 degrees, while the recorded maximum was 83.
 
 ## Summary
 Overall, it seems apparent that the stability and range of the temperatures in
@@ -49,7 +41,7 @@ venture.
 The first additional inquiry that would prove valuable would be an analysis of
 precipitation. Rain could cause challenges to the stream of business. The
 following image from an analysis of the precipation indicates that this should
-not be a problem. Approximately 75% of the day in the previous year, from Aug
+not be a problem. Approximately 75% of the days in the previous year, from Aug
 2017, had less than 0.13 inches of precipitation.
 
 ![rainfall](images/precipitation.png)
